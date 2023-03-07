@@ -1,9 +1,16 @@
-import React from 'react'
-
-const Service=() =>{
+import React from "react";
+import CommonServices from "./CommonServices";
+const Service = () => {
   return (
-    <div>Service</div>
-  )
-}
+    
+   <div className="servicesDiv" style={{display:"flex"}}>
+       
+   <CommonServices/>
+   <CommonServices/>
+   <CommonServices/>
+  
+   </div>
+  );
+};
 
 export default Service;

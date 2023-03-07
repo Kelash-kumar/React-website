@@ -1,8 +1,10 @@
 import React from 'react'
-
+import CommonContact from './CommonContact'
 const Contact =()=> {
   return (
-    <div>Contact</div>
+    <div>
+<CommonContact/>
+    </div>
   )
 }
 
